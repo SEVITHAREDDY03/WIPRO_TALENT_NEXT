@@ -4,25 +4,26 @@ class P11
         public static void main(String args[])
           {
             Scanner sc=new Scanner(System.in);
-            char ch=sc.next().charAt(0);
-            switch(ch)
+            System.out.println("Enter colour");
+            char c=sc.next().charAt(0);
+            switch(c)
             {
-             case R:
+             case 'R':
                  System.out.println("Red");
                  break;
-             case B:
+             case 'B':
                  System.out.println("Blue");
                  break;
-             case G:
+             case 'G':
                  System.out.println("Green");
                  break;
-             case Y:
+             case 'Y':
                  System.out.println("Yellow");
                  break;
-            case O:
+            case 'O':
                  System.out.println("Orange");
                  break;
-           case W:
+           case 'W':
                  System.out.println("White");
                  break;
            default:
