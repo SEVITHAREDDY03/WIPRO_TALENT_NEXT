@@ -6,8 +6,8 @@ class P12
              
              if(args.length!=0)
             {
-              int k=Integer.parseInt(args[0]);
-              switch(k)
+              int c=Integer.parseInt(args[0]);
+              switch(c)
                 {
                   case 1:
                     System.out.println("January");
@@ -47,14 +47,14 @@ class P12
                     System.out.println("December");
                     break;
                   default:
-                     System.out.println("invalid month");
+                     System.out.println("Invalid month");
                      break;
             }
           }  
 
         else
           {
-                System.out.println("Enter the a number");
+                System.out.println("Please enter the month in numbers");
          }
     }
         
