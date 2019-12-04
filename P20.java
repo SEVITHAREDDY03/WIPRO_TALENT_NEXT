@@ -4,17 +4,19 @@ class P20
        public static void main(String args[])
         {
           Scanner sc=new Scanner(System.in);
-          int n=sc.nextInt();
-          int t=n;
-          int d,s=0;
-          for(;n>0;)
+          System.out.println("Enter number");
+          int num=sc.nextInt();
+          int temp=num;
+          int div,sum=0;
+          while(num>0)
             {
-             d=n%10;
-             s=s*10+d;
-             n=n/10;
+             div=num%10;
+             sum=sum*10+div;
+             num=num/10;
             }
-            System.out.println(s);
+            System.out.println(sum);
         }
    }
 
+     
              
