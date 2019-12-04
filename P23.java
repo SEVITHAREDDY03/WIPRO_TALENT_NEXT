@@ -6,7 +6,7 @@ import java.util.*;
            Scanner sc=new Scanner(System.in);
             int x1=sc.nextInt();
             int x2=sc.nextInt();
-            String s=sc.next();
+            String str=sc.next();
             do
              {
                System.out.println("1.Add");
@@ -22,6 +22,6 @@ import java.util.*;
                        break;
                    }
                  //String s=sc.next();
-                }while(s=="y"||s=="Y");
+                }while(str=="y"||str=="Y");
              }
           }
