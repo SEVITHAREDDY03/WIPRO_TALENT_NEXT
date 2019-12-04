@@ -4,22 +4,21 @@ class P21
        public static void main(String args[])
         {
           
-          int n=Integer.parseInt(args[0]);
-          int t=n;
-          int d,s=0;
-          while(n>0)
+          int num=Integer.parseInt(args[0]);
+          int temp=num;
+          int div,sum=0;
+          while(num>0)
             {
-             d=n%10;
-             s=s*10+d;
-             n=n/10;
+             div=num%10;
+             sum=sum*10+div;
+             num=num/10;
             }
-         if(t==s)
-           System.out.println("Palindrome");
+         if(temp==sum)
+           System.out.println(temp+" is a palindrome");
           else
-            System.out.println("Not a Palindrome"); 
+            System.out.println(temp+" is not a palindrome"); 
           
       
         }
    }
-
              
