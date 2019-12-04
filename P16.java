@@ -3,22 +3,20 @@ class P16
    {
          public static void main(String args[])
         {
-          
-          
-                
-                for(int j=11;j<99;j++)
+                int j,c,i; 
+                for(i=11;i<99;i++)
                   {
-                      int flag=0;
-                 for(int i=2;i<=Math.sqrt(j);i++)
+                      c=0;
+                 for(j=2;j<=Math.sqrt(i);j++)
                    {
-                     if(j%i==0)
+                     if(i%j==0)
                        {
-                         flag=1;
+                         c=1;
                          break;
                         }
                      }
-                    if(flag==0)
-                      System.out.println(j);
+                    if(c==0)
+                      System.out.println(i);
                    }
                   }
                }
