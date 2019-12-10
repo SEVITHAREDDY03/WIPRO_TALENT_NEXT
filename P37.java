@@ -15,7 +15,7 @@ class Patient
     }
 
   }
-class Patients
+class P37
 {
    public static void main(String args[])
    {
