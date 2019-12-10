@@ -1,4 +1,49 @@
 import java.util.*;
+class Person
+{ 
+  String name;
+  int age;
+  Person(String name,int age)
+  {
+    this.name=name;
+    this.age=age;
+  }
+  String getname()
+  {
+    return name;
+  }
+  int getage()
+  {
+    return age;
+  }
+
+}
+class Employee extends Person
+{
+  double salary; 
+  String in_num;
+  int year;
+  Employee(String name,int age,double salary,int year,String in_num)
+  {
+    super(name,age);
+    this.salary=salary;
+    this.year=year;
+    this.in_num=in_num;
+  }
+  String getinnum()
+  {
+    return in_num;
+  }
+  int getyear()
+  {
+    return year;
+  }
+  double getsalary()
+  {
+    return salary;
+  }
+
+
 class P40
 {
   public static void main(String args[])
